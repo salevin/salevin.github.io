@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel Levin | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/octicons.css" />
+    <script src="js/vendor/modernizr.js"></script>
+	<script src="js/vendor/jquery.js"></script>
+  </head>
+  <body>
+       <div class="row">
+        <div class="large-12 columns">
+          <div class="nav-bar right">
+           <ul class="button-group">
+             <li><a href="files/CVResumeSamuelLevin.pdf" target="_blank" class="button">Resume</a></li>
+            </ul>
+          </div>
+          <h1>Samuel Levin</h1>
+          <hr/>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+	<div class="image-wrapper overlay-fade-in-new-background">
+
+          <img src="img/workspace.jpg" class="two">
+			<div class="overhead top">
+  			<h2>Math & Computer Science</h2>
+		</div>
+			</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <hr>
+        <div class="large-8 columns">
+          <h4>About</h4>
+          <p>Current undergrad student at Goucher College studying Computer Science with a focus in mathematics. As an Irish/American dual citizen, I have spent time living abroad and have interned with Microsoft Dublin as a junior web dev on a MEAN stack. Interests include building computers, writing android apps, and learning machine learning neural nets. Throughout my studies I have spent time with MATLAB, LATEX, NumPy, and SciPy for mathematics. In computer, science I have spent time with Python 2/3, HTML/CSS, JavaScript, PHP, SQL, Java, and C++. I love linux and I am very familiar with bash.</p>
+          <i class="fi-social-twitter"></i>
+        </div>
+        <div class="large-4 columns">
+			<a class="th" href="img/myself.jpg">
+          <img src="img/myself.jpg">
+				</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <hr>
+        <div class="large-12 columns">
+          <h4>Work</h4>
+          <p>General projects I have done out of personal interest. Check out my github at the bottom of the page for all of my public projects!</p>
+
+          <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-clearing>
+            <li>
+              <a href="img/hamming-mlp.png" target="_blank">
+              <img data-caption="Workspace for Hamming MLP neural net" src="img/hamming-mlp.png"></a>
+            </li>
+            <li>
+              <a href="img/Pokedex-Database.png" target="_blank"><img data-caption="Database of Pokemon in PHP and Javascript with PSQL backend" src="img/Pokedex-Database.png"></a>
+            </li>
+            <li>
+              <a href="img/goucher-website.png" target="_blank"><img data-caption="One of my group projects on my university's website" src="img/goucher-website.png"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="large-12 columns">
+          <hr>
+          <h4>Contact Me</h4>
+            <p></p>
+            <ul class="clearing-thumbs small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-clearing>
+          <li>
+			  <a href="mailto:salev005@mail.goucher.edu" target="_blank"> <img class="one" src="img/1444558431_envelope.png"> </a>
+          </li> 
+          <li>
+			  <a href="http://www.linkedin.com/in/salevin" target="_blank"><img class="one" src="img/Logo-Black-34px-TM.png"> </a>
+			</li> 
+          <li>
+			  <a class="one" href="https://github.com/salevin" target="_blank"><span class="mega-octicon octicon-logo-github"></span></a>
+          </li> 
+            </ul>
+        </div>
+      </div>
+
+      <footer class="row">
+          <div class="large-12 columns">
+            <hr/>
+            <div class="row">
+            </div>
+          </div>
+      </footer>
+    
+  </body>
+<script type="text/javascript">
+var img = $('img.two');
+var range = 700;
+
+$(window).on('scroll', function () {
+  
+    var scrollTop = $(this).scrollTop();
+    var offset = img.offset().top;
+    var height = img.outerHeight();
+    offset = offset + height / 2.25;
+    var calc = 1.12 - (scrollTop - offset + range) / range;
+  
+    img.css({ 'opacity': calc });
+  
+    if ( calc > '.75' ) {
+      img.css({ 'opacity': .75 });
+    } else if ( calc < '.15' ) {
+      img.css({ 'opacity': .15 });
+    }
+  
+});
+	</script>
+
+</html>
