@@ -86,7 +86,7 @@ img.one:hover {
 }
 
 img.two {
-     position: relative; 
+     position: relative;
 	opacity: 0.615506;
 }
 
@@ -96,10 +96,10 @@ img.two {
     background-color: black;}
 
 .overhead.top h2 {
-   position: absolute; 
-   top: 35%; 
-   text-align: center; 
-   width: 97%; 
+   position: absolute;
+   top: 35%;
+   text-align: center;
+   width: 97%;
    color: white;
    font-size: 300%;
 }
@@ -944,7 +944,7 @@ select {
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     float: left; }
-    
+
     @media only screen and (max-width: 40em) {
     }
 
