@@ -6617,3 +6617,9 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+  button, .button {
+    padding: 0.875rem 1.75rem 0.9375rem 1.75rem;
+    font-size: 0.8125rem; } }
