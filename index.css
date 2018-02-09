@@ -1,3 +1,7 @@
+body {
+    background-color: #073642;
+}
+
 .flash {
    animation-name: flash;
     animation-duration: 2.5s;
