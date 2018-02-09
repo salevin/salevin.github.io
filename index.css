@@ -3,7 +3,7 @@ body {
 }
 
 .flash {
-   animation-name: flash;
+    animation-name: flash;
     animation-duration: 2.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
